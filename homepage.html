@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
-</head>
-
 <style>
+
 a { text-decoration: none }
+
+
+.container {
+    overflow: hidden;
+    background-color: #EABCBB;
+    font-family: Arial;
+    border: 10px double white;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+.container a:hover, .dropdown:hover {
+    background-color: #DDB4B4;
+}
 </style>
 
 <body style="background-color:#F5F2DA;">
+<body>
+<div class="container">
+  <a href="#home">Home</a>
+  <a href="#news">About Me</a>
+  
+      <a href="#">Projects</a>
+      <a href="#">Blog</a>
+      <a href="#">Gallery</a>
+</div>
+<br>
 
 <img src="https://scontent.xx.fbcdn.net/v/t1.0-1/p240x240/10613116_755944571176606_2706053816052017816_n.jpg?oh=a5b5971a586ed6c4d3297ebcb372c972&oe=59E492E3">
 
